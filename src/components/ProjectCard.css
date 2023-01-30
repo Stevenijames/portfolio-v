@@ -47,7 +47,11 @@
 
 .project-card button {
     height: 40px;
-    background-color: #B0C4DE;
-    border: 2px solid red;
+    background-color: #D3D3D3;
+    border: 2px solid #B0C4DE;
     width: 100%;
+}
+
+.project-card button:hover {
+    background-color: #F5F5F5;
 }

@@ -19,6 +19,6 @@
 
 @media screen and (min-width: 800px) {
     .project-cards-container > * {
-        width: 32%;
+        width: 48%;
      }
 }

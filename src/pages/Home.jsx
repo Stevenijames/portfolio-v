@@ -2,6 +2,7 @@ import './Home.css'
 import Card from '../components/Card'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import HomeImg from '../assets/img/businessphoto1.jpg'
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
           </ul>
         </section>
         <Card
-          img="./src/assets/img/businessphoto1.jpg"
+          img={HomeImg}
           title="Welcome to my Web Development Portfolio"
           description="Hi my name is Paul Ijames, last name pronounced like Im's. I am a Full Stack Web Developer and professional piano player"
         />
