@@ -1,4 +1,4 @@
-.footer {
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -10,71 +10,98 @@
     margin-top: 20px;
     padding: 10px;
     font-size: 1rem;
+
 }
 
-section.footer-contributions {
-    width: 20%;
+footer h5 {
+    display: none;
+}
+
+h3.email,
+h3.phone {
+    margin: 5px 0px;
+}
+
+
+.footer-contributions {
+    width: 100%;
 }
 
 .footer-content {
-    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin: 5px;
     font-size: 1.25rem;
 }
 
-section a button {
+footer .info-second {
+    font-size: 1rem;
+}
+
+footer .resume-button {
     background-color: #D3D3D3;
     color: #000000;
     border-radius: 10px;
     margin-top: 5px;
-    padding: 5px;
+    padding: 10px;
     text-decoration: underline;
+}
+
+.social-btn {
+    width: 100%;
+    font-size: 3rem;
+    padding: 5px;
+    color: #ffffff;
 }
 
 .icon {
     margin: 5px;
-    vertical-align: middle;
 }
 
-.icon-btn {
-    width: 10%;
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 80%;
     margin: 5px;
     padding: 5px;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 
 footer .media {
-    width: 20%;
-}
-
-button.footer-btn {
     width: 100%;
-    font-size: 2rem;
-    padding: 5px;
 }
 
-.footer-button:hover {
+footer .resume-button:hover {
     background-color: #F0F8FF;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     section.footer-contributions {
-        width: 22%;
-        order: 4;
-     }
-     footer .media {
-        width: 22%;
+        width: 30%;
         order: 3;
      }
-     .footer-content {
-        width: 22%;
+     footer .media {
+        width: 30%;
         order: 1;
+     }
+     .footer-content {
+        width: 30%;
+        order: 2;
         font-size: .75rem;
     }
+    footer h5 {
+        display: block;
+    }
 
-    .icon-btn {
-        width: 22%;
-        order: 2;
+    .icon-container {
+       width: 100%;
+    }
+    footer .info-first {
+        display: block;
     }
 }
