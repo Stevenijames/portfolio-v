@@ -1,4 +1,4 @@
-.para {
-    width: 100px;
-    height: 200px;
+.about-cards {
+    display: flex;
+    margin: 50px 10px;
 }

@@ -1,5 +1,50 @@
-.main {
+.home-page {
     border: 5px solid #696969;
     display: block;
 }
+
+.home-page {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+}
+
+.home-para {
+    font-size: 1rem;
+    width: 50%;
+    min-height: 300px;
+    color: 	#F5F5F5;
+}
+
+.home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.section-main {
+    width: 30%;
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+    color: #F5F5F5;
+}
+
+.section-main p {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+section li {
+    border: 1px solid #F5F5F5;
+    padding: 5px;
+    margin: 10px;
+}
+ section li:hover {
+    background-color: 	#B0C4DE;
+ }
 
