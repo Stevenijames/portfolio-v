@@ -17,7 +17,7 @@ span.title-container {
     width: 100%;
 }
 
-.img-container img {
+.img-home img {
     border-radius: 5%;
     border: 2px solid #B0C4DE;
     margin: auto;
@@ -64,7 +64,7 @@ nav.nav {
 }
 
 @media screen and (min-width: 750px) {
-    .img-container img {
+    .img-home img {
         margin-top: 10px;
         display: block;
     }

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <header>
-      <div className="img-container">
+      <div className="img-home">
         <img src={img} alt="face of a smiling developer" />
       </div>
       <span className="title-container">
