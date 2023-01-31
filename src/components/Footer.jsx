@@ -5,6 +5,7 @@ import { BsLinkedin } from 'react-icons/bs'
 import { HiOutlineMail } from 'react-icons/hi'
 import { FiDownload } from 'react-icons/fi'
 import resumeFile from '../assets/paul-ijames-software-engineer.pdf'
+import FooterCard from './FooterCard'
 import './Footer.css'
 
 const Footer = () => {
@@ -59,7 +60,7 @@ const Footer = () => {
         <ul>
           <li>
             <a href="https://youtu.be/mUA9CXEqvZM" target="_blank" rel="noreferrer">
-              YouTube
+              <FooterCard title="Youtube" />
             </a>
           </li>
           <li>
@@ -68,7 +69,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Spotify
+              <FooterCard title="Spotify" />
             </a>
           </li>
           <li>
@@ -77,12 +78,12 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              DJ
+              <FooterCard title="DJ" />
             </a>
           </li>
           <li>
             <a href="https://youtu.be/YdWhO9lK1J8" target="_blank" rel="noreferrer">
-              More Media
+              <FooterCard title="More Media" />
             </a>
           </li>
         </ul>
@@ -92,7 +93,7 @@ const Footer = () => {
         <ul>
           <li>
             <a href="https://globalhope.org/" target="_blank" rel="noreferrer">
-              Global Hope
+              <FooterCard title="Global Hope" />
             </a>
           </li>
           <li>
@@ -101,7 +102,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              The Conservancy
+              <FooterCard title="The Nature Conservancy" />
             </a>
           </li>
           <li>
@@ -110,7 +111,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              United Help Ukraine
+              <FooterCard title="United Help Ukraine" />
             </a>
           </li>
           <li>
@@ -119,7 +120,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Chromosome 9pminus Network
+              <FooterCard title="Chromosome 9pminus Network" />
             </a>
           </li>
         </ul>
