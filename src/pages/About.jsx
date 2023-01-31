@@ -11,8 +11,8 @@ const About = () => {
     <>
       <Nav />
 
-      <main>
-        <section className="about-cards">
+      <main className="about-container">
+        <section className="about-card">
           <Card
             img={CodingL}
             title="Web Developer"

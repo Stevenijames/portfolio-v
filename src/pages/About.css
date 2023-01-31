@@ -1,4 +1,12 @@
-.about-cards {
+section.about-container {
     display: flex;
-    margin: 50px 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+    section.about-card {
+    display: flex;
+    width: 100%;
+    }
 }
