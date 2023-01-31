@@ -16,7 +16,7 @@ const About = () => {
           <Card
             img={CodingL}
             title="Web Developer"
-            description="I am a Full Stack Web Developer that has a passion for Frontend design. My langagues include HTML, CSS, JavaScript, Node.js, within modern frameworks like React.js and Vue.js. I have a passion for creating web apps."
+            description="I am a Full Stack Web Developer that has a passion for Frontend design. My languages include HTML, CSS, JavaScript, Node.js, within modern frameworks like React.js and Vue.js. I have a passion for creating web apps."
           />
           <Card
             img={FamilyPhoto}
