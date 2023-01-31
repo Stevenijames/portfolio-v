@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <header>
-      <h1 className="title">Paul Ijames Web Developer</h1>
       <div className="img-container">
         <img src={img} alt="face of a smiling developer" />
       </div>
+      <span className="title-container">
+        <h1>Paul Ijames Web Developer</h1>
+      </span>
       <nav className="nav">
         <ul>
           <li>

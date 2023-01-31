@@ -11,7 +11,7 @@ const Home = () => {
       <main className="home-main">
         <section className="section-main">
           <p>Languages / Tools</p>
-          <ul>
+          <ul className="section-ul">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -20,14 +20,16 @@ const Home = () => {
             <li>NPM</li>
           </ul>
         </section>
-        <Card
-          img={HomeImg}
-          title="Welcome to my Web Development Portfolio"
-          description="Hi my name is Paul Ijames, last name pronounced like Im's. I am a Full Stack Web Developer and professional piano player"
-        />
+        <section className="section-main-card">
+          <Card
+            img={HomeImg}
+            title="Welcome to my Web Development Portfolio"
+            description="Hi my name is Paul Ijames, last name pronounced like Im's. I am a Full Stack Web Developer and professional piano player"
+          />
+        </section>
         <section className="section-main">
           <p>Languages / Frameworks</p>
-          <ul>
+          <ul className="section-ul">
             <li>Node.js</li>
             <li>SQL</li>
             <li>Vue.js</li>

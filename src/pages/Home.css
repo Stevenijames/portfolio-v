@@ -24,27 +24,43 @@
 }
 
 .section-main {
-    width: 30%;
+    width: 100%;
     border: 2px solid #F5F5F5;
     border-radius: 5px;
     color: #F5F5F5;
 }
 
 .section-main p {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
-p {
-    font-size: 1.5rem;
-    margin-bottom: 5px;
-}
 
-section li {
+.section-ul li {
     border: 1px solid #F5F5F5;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
 }
  section li:hover {
-    background-color: 	#B0C4DE;
+    background-color: #B0C4DE;
  }
 
+@media screen and (min-width: 750px) {
+    .section-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 5px;
+    margin: 10px;
+    font-size: .75rem;
+}
+    .section-main-card {
+        width: 40%;
+    }
+
+    .section-ul {
+        width: 100%;
+}
+
+}
