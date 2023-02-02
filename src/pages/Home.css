@@ -53,10 +53,14 @@
     width: 25%;
     padding: 5px;
     margin: 10px;
-    font-size: .75rem;
+    font-size: 1rem;
 }
     .section-main-card {
         width: 40%;
+    }
+
+    .section-main p {
+        font-size: 1.5rem;
     }
 
     .section-ul {

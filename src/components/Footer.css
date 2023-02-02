@@ -82,19 +82,21 @@ footer .resume-button:hover {
 
 @media screen and (min-width: 600px) {
     section.footer-contributions {
-        width: 30%;
+        width: 25%;
         order: 3;
      }
      footer .media {
-        width: 30%;
+        width: 25%;
         order: 1;
      }
      .footer-content {
-        width: 30%;
+        width: 35%;
         order: 2;
         font-size: .75rem;
     }
     footer h5 {
+        font-size: 1.5rem;
+        text-decoration: underline;
         display: block;
     }
 
@@ -103,5 +105,14 @@ footer .resume-button:hover {
     }
     footer .info-first {
         display: block;
+    }
+
+    footer .resume-button {
+        font-size: 1.5rem;
+    }
+
+    footer h3.email,
+    footer h3.phone {
+        font-size: 1.25rem;
     }
 }
