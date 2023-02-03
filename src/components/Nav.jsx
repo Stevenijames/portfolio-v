@@ -1,5 +1,5 @@
 import './Nav.css'
-import img from '../assets/headShot.png'
+import img from '../assets/headShotEdit.png'
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
