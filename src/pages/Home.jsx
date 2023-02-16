@@ -15,8 +15,8 @@ const Home = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
+            <li>Node.js</li>
             <li>Terminal</li>
-            <li>Chrome Dev Tools</li>
             <li>NPM</li>
           </ul>
         </section>
@@ -30,10 +30,10 @@ const Home = () => {
         <section className="section-main">
           <p>Languages / Frameworks</p>
           <ul className="section-ul">
-            <li>Node.js</li>
-            <li>SQL</li>
             <li>Vue.js</li>
             <li>React.js</li>
+            <li>WordPress</li>
+            <li>SQL</li>
             <li>Git</li>
             <li>Yarn</li>
           </ul>
